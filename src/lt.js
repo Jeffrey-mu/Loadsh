@@ -1,6 +1,6 @@
 /**
  * Checks if `value` is less than `other`.
- *
+ * 检查 value 是否小于 other
  * @since 3.9.0
  * @category Lang
  * @param {*} value The value to compare.
@@ -20,6 +20,7 @@
  * // => false
  */
 function lt(value, other) {
+  // string 转 number
   if (!(typeof value === 'string' && typeof other === 'string')) {
     value = +value
     other = +other

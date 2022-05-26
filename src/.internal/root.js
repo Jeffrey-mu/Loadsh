@@ -1,4 +1,5 @@
 /* global globalThis, self */
+
 import freeGlobal from './freeGlobal.js'
 
 /** Detect free variable `globalThis` */
